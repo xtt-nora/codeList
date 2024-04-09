@@ -5,7 +5,7 @@
     <n-button @click="brush">框选区域放大</n-button>
     <n-button @click="zoomWheel">zoom滚动方法缩小(后期拆分)</n-button>
   </div>
-</template>
+</template> 
 <script setup lang="ts" name="Chart">
 import * as d3 from "d3";
 import { dataAll } from "./data.ts";
