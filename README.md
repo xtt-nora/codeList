@@ -12,3 +12,7 @@
 #### x轴放大
 <img width="612" alt="截屏2024-04-11 16 54 11" src="https://github.com/xtt-nora/codeList/assets/100661009/1e723d12-a53d-4c69-8249-124883ae9e1f">
 <img width="627" alt="截屏2024-04-11 16 54 15" src="https://github.com/xtt-nora/codeList/assets/100661009/bd9d52da-4b2c-4c63-9490-540cfbc2242f">
+
+#### y轴放大
+<img width="603" alt="截屏2024-04-11 16 57 14" src="https://github.com/xtt-nora/codeList/assets/100661009/25991a7c-6e5c-42a5-a8bb-dbf512797543">
+<img width="584" alt="截屏2024-04-11 16 57 19" src="https://github.com/xtt-nora/codeList/assets/100661009/6c659c12-33cd-4dbb-8cc7-6b8e1c3617e3">
