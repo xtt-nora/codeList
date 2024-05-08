@@ -1,0 +1,45 @@
+:root{
+    --color-primary: rgb(42, 148, 125);
+}
+.light {
+    --color-background:  #ffffff;
+    --color-second-background: #F7F8FA;
+    --color-primary-text: #333333;
+    --color-second-text: #818594;
+    --color-line: #EBECF0;
+    --color-icon-background: white;
+    --color-icon: black;
+    --color-hover: #DFE1E5;
+    --color-shadow:rgba(0, 0, 0, 0.2);
+    --color-pin:rgba(255, 255, 255, 0.8);
+    --color-test: #2961d1;
+  }
+  
+  .dark {
+    --color-background:  #1E1F22;
+    --color-second-background: #2B2D30;
+    --color-primary-text: #ffffff;
+    --color-second-text: #6F737A;
+    --color-line: #393B40;
+    --color-icon-background: red;
+    --color-icon-background: black;
+    --color-icon: white;
+    --color-hover:#43454A;
+    --color-shadow:rgba(0, 0, 0, 0.4);
+    --color-pin:rgba(0, 0, 0, 0.8);
+    --color-test: #2961d1;
+  }
+
+  @set:{
+    bc: var(--color-background);
+    sbc: var(--color-second-background);
+    pt: var(--color-primary-text);
+    st: var(--color-second-text);
+    cl: var(--color-line);
+    ibc: var(--color-icon-background);
+    i: var( --color-icon);
+    h: var(--color-hover);
+    s: var(--color-shadow);
+    p: var(--color-pin);
+    t: var(--color-test)
+}

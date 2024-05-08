@@ -1,0 +1,12 @@
+// 字体依次排序
+@font: mini,miniBlod,small,smallBlod,medium,mediumBlod,large ,largeBlod,;
+@sizes: 11px,11px,12px,12px,16px,16px,24px,24px;
+@weight:normal,blod,normal,blod,normal,blod,normal,blod;
+.font{
+    each(@font,{
+        &-@{value}{
+            font-size: extract(@sizes, @index);
+            font-weight: extract(@weight, @index);
+        }
+    })
+}

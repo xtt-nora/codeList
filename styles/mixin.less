@@ -1,0 +1,17 @@
+  /**
+  * 混入内容 
+  */
+  
+  //hover
+.mixin-hover(@cursor:pointer,@bc: var(--color-hover)){
+    &:hover {
+        cursor: @cursor ;
+        background-color: @bc;
+    }
+  }
+//   focus
+.mixin-focus(@bc:var(--color-test)){
+  &:focus{
+        background-color: @bc;
+  }
+}

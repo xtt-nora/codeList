@@ -1,0 +1,162 @@
+
+@import "color.less";
+@margin-sizes: 5,10,16,20;
+@padding-sizes:2,5,10,15,20;
+// @height-sizes: 20,50,100,150,200;
+@border-radius: 5,10,15;
+@direction: {
+    t: top;
+    r: right;
+    b: bottom;
+    l: left;
+  };
+// 主基调颜色
+.color {
+    each(@set,{
+     &-@{key} {
+         color: @value;
+     }
+    })
+ }
+// 主基调背景颜色
+ .background{
+    each(@set,{
+        &-@{key} {
+            background-color: @value;
+        }
+       })
+ }
+//  主基调布局
+//eg:lay-f: flex布局; .f-c: 列不换行flex布局; .fj-s:主轴左对齐～; .fa-e: 交叉轴终点对齐～；
+@layout:{
+    b: block;
+    ib: inline-block;
+    f: flex;
+    g: grid;
+}
+@flex-flow: {
+    r: row nowrap;
+    c: column nowrap;
+    rl: row-reverse nowrap;
+    cl: column-reverse nowrap;
+    rn: row wrap;
+    cn: column wrap;
+    rln: row-reverse wrap;
+    cln: column-reverse wrap;
+
+};
+@justify: {
+    s: flex-start;
+    e: flex-end;
+    c: center;
+    b: space-between;
+    a: space-around;
+}
+@align: {
+    s: flex-start,;
+    e: flex-end;
+    c: center;
+    b: baseline;
+    st: stretch;
+};
+
+each(@layout,{
+    .lay{
+      &-@{key} {
+        display: @value;
+    };
+    }
+});
+each(@flex-flow,{
+    .f{
+        &-@{key}{
+            display: flex;
+            flex-flow: @value;
+          }
+    }
+});
+each(@justify,{
+       .fj{
+        &-@{key}{
+            display: flex;
+                justify-content: @value;
+              }
+       }
+});
+each(@align,{
+           .fa{
+            -@{key}{
+                display: flex;
+                    justify-content: @value;
+                  }
+           }
+});
+.flex-1{
+    flex: 1;
+}
+//主基调高度height:10的倍数，max100px;
+//eg: h-10=>height:100px;
+each(range(10),{
+    .h-@{value} {
+        height:(@value*10px);
+    }
+})
+//主基调高度width:10的倍数，max100px;
+//eg: w-10=>width:100px;
+each(range(10),{
+    .w-@{value} {
+        width:(@value*10px);
+    }
+})
+// 主基调margin
+each(@margin-sizes, {
+  .m {
+    &-@{value}{
+      margin: 1px * @value;
+    }
+    // each 函数默认使用 @value,@key,@index 为变量名
+    // 当通过 #() 或者 .() 的样式为开头传递变量名时
+    // each 函数会获取传入的变量的名并按顺序将其绑定为 @value,@key,@index 的值
+    each(@direction, .(@v, @k) {
+      &@{k}-@{value} {
+        margin-@{v}: 1px *  @value;
+      }
+    });
+  }
+});
+
+//主基调padding
+each(@padding-sizes,{
+    .p {
+        &-@{value}{
+            padding:1px * @value;
+        }
+        each(@direction , .(@v, @k){
+            &@{k}-@{value} {
+                padding-@{v}: 1px * @value;
+            }
+        })
+    }
+});
+
+//主基调悬浮
+.hover {
+    &:hover {
+        cursor: pointer;
+        background-color: var(--color-hover);
+    }
+}
+//聚焦
+.focus {
+    &:focus {
+        background-color: var(--color-test);
+    }
+}
+//主基调圆角
+each(@border-radius,{
+    .br {
+        &-@{value}{
+            border-radius:1px * @value;
+        }
+    }
+})
