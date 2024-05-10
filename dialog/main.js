@@ -4,7 +4,7 @@ class DialogTrans extends HTMLElement {
         return ["color","size","title"];
      }
     constructor() {
-        super();
+        super(); 
         // 构造函数中设置初始状态和默认值，注册事件监听器，甚至创建一个影子根（shadow root）不能检查元素的属性或子元素，也不应添加新的属性或子元素；
      //创建shadow根
      const shadow = this.attachShadow({mode:'open'})
