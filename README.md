@@ -5,9 +5,8 @@
 放一些自写代码块=>d3,echarts,奇思妙想逻辑块....
 
 #### 框选放大 d3
-
-![1712825534198](https://github.com/xtt-nora/codeList/assets/100661009/0044d3f7-1a9e-4611-96a0-884912fcf916)
-![截屏2024-04-11 16 48 15 (2)](https://github.com/xtt-nora/codeList/assets/100661009/59e5c1cc-9db7-49be-b76e-cc8c27488434)
+![1](https://github.com/user-attachments/assets/ea19d750-b07c-47ea-8ea5-3ae849cb19f4)
+![2](https://github.com/user-attachments/assets/ce6c7f58-c2d4-4b8a-99c5-4ebaf9b3bbb2)
 <img width="100" alt="截屏2024-04-11 16 48 43" src="https://github.com/xtt-nora/codeList/assets/100661009/6175399c-e0f5-4732-af7f-408e9e5b5301">
 
 #### x 轴放大
