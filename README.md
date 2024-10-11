@@ -22,5 +22,5 @@
 ## 封装 echart 及对其操作的工具箱（包括框选，上一步下一步，还原等功能）
 
 封装代码在 Echarts 文件夹中，使用 hooks 钩子记录多图操作以及 store 中的 history.ts 进行通信（hooks>useHistory.ts 以及 store>history.ts|| 需要下载 immer）;
-![2024-10-11_135505](https://github.com/user-attachments/assets/3d681d61-867a-4263-bae4-54d91bf5621f)
-![2024-10-11_135526](https://github.com/user-attachments/assets/3e594ee1-c254-48ec-be17-3d146ecac004)
+![3](https://github.com/user-attachments/assets/6970d922-5f25-4451-a0e7-81e59f59086d)
+![4](https://github.com/user-attachments/assets/f9f8c728-114e-41ab-9f4a-d159f41149a0)
