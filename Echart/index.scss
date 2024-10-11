@@ -1,0 +1,11 @@
+.comChart {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  .chart {
+    background-color: rgb(220, 220, 220);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    flex: 1;
+    box-sizing: border-box;
+  }
+}
