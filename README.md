@@ -1,4 +1,4 @@
-# codeList
+![2024-10-11_135505](https://github.com/user-attachments/assets/40bd1f50-d7cc-4a87-af96-71eaac3f81de)# codeList
 
 #### 前提：使用 vue3+ts；d3 绘图；对图进行交互操作
 
@@ -12,8 +12,8 @@
 
 #### x 轴放大
 
-<img width="100" alt="截屏2024-04-11 16 54 11" src="https://github.com/xtt-nora/codeList/assets/100661009/1e723d12-a53d-4c69-8249-124883ae9e1f">
-<img width="100" alt="截屏2024-04-11 16 54 15" src="https://github.com/xtt-nora/codeList/assets/100661009/bd9d52da-4b2c-4c63-9490-540cfbc2242f">
+<img width="300" alt="截屏2024-04-11 16 54 11" src="https://github.com/xtt-nora/codeList/assets/100661009/1e723d12-a53d-4c69-8249-124883ae9e1f">
+<img width="300" alt="截屏2024-04-11 16 54 15" src="https://github.com/xtt-nora/codeList/assets/100661009/bd9d52da-4b2c-4c63-9490-540cfbc2242f">
 
 #### y 轴放大
 
@@ -23,3 +23,5 @@
 ## 封装 echart 及对其操作的工具箱（包括框选，上一步下一步，还原等功能）
 
 封装代码在 Echarts 文件夹中，使用 hooks 钩子记录多图操作以及 store 中的 history.ts 进行通信（hooks>useHistory.ts 以及 store>history.ts|| 需要下载 immer）;
+![2024-10-11_135505](https://github.com/user-attachments/assets/3d681d61-867a-4263-bae4-54d91bf5621f)
+![2024-10-11_135526](https://github.com/user-attachments/assets/3e594ee1-c254-48ec-be17-3d146ecac004)
